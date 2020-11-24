@@ -1,37 +1,34 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "lumen",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Lumen Energy Framework",
+  "description": "Or LEF for short",
   "authors": [
-    "Me!"
+    "Azazelthedemonlord"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "",
+    "sources": "https://github.com/Dragonoidzero/Lumen"
   },
 
-  "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "license": "Public Domain",
+  "icon": "assets/lumen/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "azzy.fabric.lumen.Lumen"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "lumen.mixins.json"
   ],
 
   "depends": {
     "fabricloader": ">=0.7.4",
     "fabric": "*",
     "minecraft": "1.16.x"
-  },
-  "suggests": {
-    "another-mod": "*"
   }
 }
